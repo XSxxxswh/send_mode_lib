@@ -94,28 +94,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bankir_models_lib"
-version = "0.1.0"
-dependencies = [
- "bytes",
- "chrono",
- "deadpool-postgres",
- "deadpool-redis",
- "once_cell",
- "reqwest",
- "rsa",
- "rust_decimal",
- "serde",
- "serde_json",
- "simd-json",
- "thiserror",
- "tokio",
- "tokio-postgres",
- "tokio-retry2",
- "tracing",
-]
-
-[[package]]
 name = "base16ct"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1743,6 +1721,28 @@ checksum = "49db231d56a190491cb4aeda9527f1ad45345af50b0851622a7adb8c03b01c32"
 dependencies = [
  "core-foundation-sys",
  "libc",
+]
+
+[[package]]
+name = "send_mode_lib"
+version = "0.1.0"
+dependencies = [
+ "bytes",
+ "chrono",
+ "deadpool-postgres",
+ "deadpool-redis",
+ "once_cell",
+ "reqwest",
+ "rsa",
+ "rust_decimal",
+ "serde",
+ "serde_json",
+ "simd-json",
+ "thiserror",
+ "tokio",
+ "tokio-postgres",
+ "tokio-retry2",
+ "tracing",
 ]
 
 [[package]]

@@ -1,5 +1,5 @@
 [package]
-name = "bankir_models_lib"
+name = "send_mode_lib"
 version = "0.1.0"
 edition = "2024"
 
