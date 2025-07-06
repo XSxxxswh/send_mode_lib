@@ -59,7 +59,7 @@ macro_rules! retry {
         let mut attempt = 0;
         loop {
             attempt += 1;
-            result = tokio::time::timeout(Duration::from_millis(300), $sql_func).await;
+            result = tokio::time::timeout(Duration::from_millis(5000), $sql_func).await;
             match result {
                 Ok(Ok(r)) => {
                     break Ok(r)
